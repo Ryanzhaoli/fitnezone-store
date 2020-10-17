@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  font-family: 'Grenze Gotisch', cursive; 
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.customBtn {
+  display: inline-flex;
+  background:none;
+  color:black;
+  padding:8px 30px;
+  margin:20px 0;
+  border-radius:30px;
+  transition: 0.9s;
+  border:2px solid;
+  border-color:greenyellow;
+  cursor: pointer;
+ 
+}
+.customBtn:hover,
+.customBtn:focus{
+  color:black; 
+  background:greenyellow;
+  box-shadow: inset 150px 0 0 0 yellow;
+  text-decoration: none;
+
+}
+
+.title {
+  text-align: center;
+  margin: 100px auto 70px;
+  position: relative;
+  line-height:60px;
+  color: #555;
+}
+.title::after {
+  content:'';
+  background:yellow;
+  width: 80px;
+  height:5px;
+  border-radius:5px;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+} 

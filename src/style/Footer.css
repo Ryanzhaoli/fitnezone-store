@@ -1,0 +1,43 @@
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 10px 0 20px;
+  }
+  .footer p{
+    color:#8a8a8a;
+  }
+  .footer h3{
+    color:#fff;
+    margin-bottom:20px;
+  }
+  
+  .footer img{
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  
+  .footer ul{
+    list-style-type: none;
+  }
+  .app-logo {
+    margin-top: 20px; 
+  }
+  .app-logo img{
+    width: 140px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .footer hr {
+   
+    background:gray;
+    margin:5px;
+  }
+  .menu-icon {
+    width:28px;
+    margin-left:20px;
+    display: none;
+  }
+  
+  

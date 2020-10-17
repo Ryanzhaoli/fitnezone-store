@@ -1,0 +1,37 @@
+
+.navbar-dark{
+    background-color: white;
+    color:red;
+}
+
+
+.brandName{
+    font-size: 15px;
+    color:black;
+    margin-left:5px;
+}
+   .navbarBrand{
+    border-radius: 10%;
+   }
+   
+   .nav-link{
+      text-decoration: none;
+      color:black;
+      
+    }
+    .navbarBrand:hover,
+    .navbarBrand:focus,
+    .nav-item:hover,
+    .nav-item:focus {
+      text-decoration: none;
+      color:yellow;
+      animation: pulse 1s;
+      box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+      background:gray;
+      border-radius: 5px;
+    }
+    @keyframes pulse {
+      0% {
+           box-shadow: 0 0 0 0;
+      }
+    }
