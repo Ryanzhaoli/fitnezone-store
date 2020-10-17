@@ -32,7 +32,7 @@ function Home() {
               </a>
             </div>
             <div className="col-md-6">
-              <img className="img-fluid" src="/images/image1.png" />
+              <img className="img-fluid" src="images/image1.png" />
             </div>
           </div>
         </div>
