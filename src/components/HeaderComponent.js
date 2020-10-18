@@ -45,9 +45,9 @@ function Header() {
     <React.Fragment>
       <Navbar dark sticky="top" expand="lg">
         <div className="container">
-          <NavbarBrand className="navbarBrand" href="#">
+          <NavbarBrand className="navbarBrand" href="fitnezone-store/#/home">
             <img
-              src="/assets/images/logo.png" alt=""
+              src="./assets/images/logo.png" alt=""
               height="50px"
               width="60px"
               alt="Fitnezone Logo"
