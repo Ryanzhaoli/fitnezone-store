@@ -8,7 +8,7 @@ import { useStateValue } from "../context/StateProvider";
 
 function Product(props) {
    
- const [{basket},dispatch] = useStateValue();
+ const [,dispatch] = useStateValue();
 
   const addToBasket = () => {
             dispatch({
@@ -28,7 +28,7 @@ function Product(props) {
     return (
         <div key={props.id} class="col-md-3 my-3 ">
            <div className="product">
-              <img className="product-image" src={props.image}/>
+              <img className="product-image" src={props.image} alt=""/>
                  <Rating value={props.rating}/>
               <p>${props.price}</p>
               <h4>{props.name}</h4>

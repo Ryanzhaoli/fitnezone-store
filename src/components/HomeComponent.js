@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../style/Home.css";
 import Rating from './Rating';
@@ -32,7 +32,7 @@ function Home() {
               </a>
             </div>
             <div className="col-md-6">
-              <img className="img-fluid" src="images/image1.png" />
+              <img className="img-fluid" src="/images/image1.png" alt=""/>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ function Home() {
           <div className="row">
             <div className="ct col-md-3">
              <Link to={''}> 
-                 <img className="img-fluid"  src="/images/category-1.jpg" />
+                 <img className="img-fluid"  src="/images/category-1.jpg" alt="" />
                     <div class="middle">
                           <div class="text">Watch</div>
                     </div>
@@ -118,7 +118,7 @@ function Home() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-sm-4 order-sm-last">
-              <img className="img-fluid" src="/images/exclusive.png"/>
+              <img className="img-fluid" src={'/images/exclusive.png'} alt=""/>
             </div>
             <div className="offset-1 col-sm-4">
                 
@@ -167,7 +167,7 @@ function Home() {
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
               </div>
-                <img src="/images/user-2.jpeg" />
+                <img src="/images/user-2.jpeg" alt=" " />
                 <h3>Jane Gregorio</h3>
              </div> 
              <div className="col-md-3">
@@ -182,7 +182,7 @@ function Home() {
                     <i className="fa fa-star" aria-hidden="true" />
                     <i className="fa fa-star-o" aria-hidden="true" /> 
                 </div>
-                <img src="/images/user-3.jpeg" />
+                <img src="/images/user-3.jpeg" alt=" " />
               <h3>John Dee</h3>
               </div>   
             </div>
@@ -209,7 +209,7 @@ function Home() {
         </div>
         <div className="scroll-top">
           <button type="button" className="block">
-             <a href="#"><i className="fa fa-arrow-right"></i>Scroll Top</a>
+             <a href="home"><i className="fa fa-arrow-right"></i>Scroll Top</a>
           </button>
         </div>
 
