@@ -45,7 +45,7 @@ function Header() {
     <React.Fragment>
       <Navbar dark sticky="top" expand="lg">
         <div className="container">
-          <NavbarBrand className="navbarBrand" href="/home">
+          <NavbarBrand className="navbarBrand" href="#">
             <img
               src="/assets/images/logo.png" alt=""
               height="50px"
