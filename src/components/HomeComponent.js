@@ -32,7 +32,7 @@ function Home() {
               </a>
             </div>
             <div className="col-md-6">
-              <img className="img-fluid" src="/images/image1.png" alt=""/>
+              <img className="img-fluid" src="/assets/images/image1.png" alt=""/>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ function Home() {
           <div className="row">
             <div className="ct col-md-3">
              <Link to={''}> 
-                 <img className="img-fluid"  src="/images/category-1.jpg" alt="" />
+                 <img className="img-fluid"  src="/assets/images/category-1.jpg" alt="" />
                     <div class="middle">
                           <div class="text">Watch</div>
                     </div>
@@ -52,7 +52,7 @@ function Home() {
             </div>
             <div className="ct col-md-3">
             <Link to={''}> 
-              <img className="img-fluid" src="/images/category-2.jpg" />
+              <img className="img-fluid" src="/assets/images/category-2.jpg" alt=""/>
               <div class="middle">
                     <div class="text">Socks</div>
                 </div>
@@ -60,7 +60,7 @@ function Home() {
             </div>
             <div className="ct col-md-3">
             <Link to={''}> 
-              <img className="img-fluid" src="/images/category-3.jpg" />
+              <img className="img-fluid" src="/assets/images/category-3.jpg" alt="" />
                <div class="middle">
                     <div class="text">Shoes</div>
                 </div>
@@ -68,7 +68,7 @@ function Home() {
             </div>
             <div className="ct col-md-3">
             <Link to={''}> 
-               <img className="img-fluid" src="/images/category-4.jpg" />
+               <img className="img-fluid" src="/assets/images/category-4.jpg" alt="" />
                <div class="middle">
                     <div class="text">Clothing</div>
                 </div>
@@ -152,7 +152,7 @@ function Home() {
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star-o" aria-hidden="true" /> 
               </div>
-              <img src="/images/user-1.jpeg" />
+              <img src="/assets/images/user-1.jpeg" alt=" " />
               <h3>Sean Spoon</h3>
             </div>     
             <div className="col-md-3">
@@ -167,7 +167,7 @@ function Home() {
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
               </div>
-                <img src="/images/user-2.jpeg" alt=" " />
+                <img src="/assets/images/user-2.jpeg" alt=" " />
                 <h3>Jane Gregorio</h3>
              </div> 
              <div className="col-md-3">
@@ -182,7 +182,7 @@ function Home() {
                     <i className="fa fa-star" aria-hidden="true" />
                     <i className="fa fa-star-o" aria-hidden="true" /> 
                 </div>
-                <img src="/images/user-3.jpeg" alt=" " />
+                <img src="/assets/images/user-3.jpeg" alt=" " />
               <h3>John Dee</h3>
               </div>   
             </div>
@@ -193,16 +193,16 @@ function Home() {
            <div className="container">
               <div className="row">
                 <div className="col-3">
-                   <img src="/images/logo-speedo.jpg" />
+                   <img src="/assets/images/logo-speedo.jpg" alt=""/>
                 </div>
               <div className="col-3">
-                <img src="/images/logo-essie.png" />
+                <img src="/assets/images/logo-essie.png" alt="" />
               </div>
               <div className="col-3">
-                <img src="/images/logo-planet.png" />
+                <img src="/assets/images/logo-planet.png" alt=""/>
               </div>
               <div className="col-3">
-                <img src="/images/logo-jollo.png" />
+                <img src="/assets/images/logo-jollo.png" alt=""/>
               </div>
             </div>
           </div>

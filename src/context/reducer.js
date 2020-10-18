@@ -1,5 +1,6 @@
 import data from './data';
 
+
 export const initialState = {
     basket: [],
     user: null,

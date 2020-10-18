@@ -47,7 +47,7 @@ function Header() {
         <div className="container">
           <NavbarBrand className="navbarBrand" href="/home">
             <img
-              src="/images/logo.png"
+              src="/assets/images/logo.png" alt=""
               height="50px"
               width="60px"
               alt="Fitnezone Logo"
