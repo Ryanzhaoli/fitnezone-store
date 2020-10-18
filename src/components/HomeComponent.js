@@ -32,7 +32,7 @@ function Home() {
               </a>
             </div>
             <div className="col-md-6">
-              <img className="img-fluid" src="assets/images/image1.png" alt=""/>
+              <img className="img-fluid" src="/assets/images/image1.png" alt=""/>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ function Home() {
           <div className="row">
             <div className="ct col-md-3">
              <Link to={''}> 
-                 <img className="img-fluid"  src="assets/images/category-1.jpg" alt="" />
+                 <img className="img-fluid"  src="/assets/images/category-1.jpg" alt="" />
                     <div class="middle">
                           <div class="text">Watch</div>
                     </div>
@@ -52,7 +52,7 @@ function Home() {
             </div>
             <div className="ct col-md-3">
             <Link to={''}> 
-              <img className="img-fluid" src="assets/images/category-2.jpg" alt=""/>
+              <img className="img-fluid" src="/assets/images/category-2.jpg" alt=""/>
               <div class="middle">
                     <div class="text">Socks</div>
                 </div>
