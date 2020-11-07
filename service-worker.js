@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fitnezone-store/precache-manifest.ea77d1297f8721a1e036c5053bcb97ee.js"
+  "/fitnezone-store/precache-manifest.e5a755994668e30044cff2725b2c0b88.js"
 );
 
 self.addEventListener('message', (event) => {
