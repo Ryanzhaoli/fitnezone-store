@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4df9327df3fedd502348870b067e9f6e",
+    "revision": "2020062909a895f70c3e45578facc549",
     "url": "/fitnezone-store/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitnezone-store/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "72b0d02b1ac9bd9bf59d",
+    "revision": "a86566ae7fa0fd47aae3",
     "url": "/fitnezone-store/static/css/main.b6a17a53.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitnezone-store/static/js/2.5d9417a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72b0d02b1ac9bd9bf59d",
-    "url": "/fitnezone-store/static/js/main.3511bc48.chunk.js"
+    "revision": "a86566ae7fa0fd47aae3",
+    "url": "/fitnezone-store/static/js/main.f25cf04a.chunk.js"
   },
   {
     "revision": "2cc298770fda66b5d21a",
