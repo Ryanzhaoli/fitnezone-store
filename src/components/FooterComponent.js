@@ -11,12 +11,12 @@ function Footer() {
             <h3>Download Our App</h3>
             <p>Download App for ios or Android mobile phone.</p>
             <div className="app-logo">
-              <img src="/images/play-store.png" alt="" />
-              <img src="/images/app-store.png" alt="" />
+              <img src="assets/images/play-store.png" alt="" />
+              <img src="assets/images/app-store.png" alt="" />
             </div>
           </div>
           <div className="col-md-3 text-center">
-            <img src="/images/logo.png" alt=""/>
+            <img src="assets/images/logo.png" alt=""/>
             <p>
               Our Purpose Is To Sustainably Make the Pleaseure and Benefits of
               Sports Accessible to the Many.{" "}

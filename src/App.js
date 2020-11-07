@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/App.css';
-import { HashRouter as Router , Route , Switch, Redirect} from 'react-router-dom';
+import { BrowserRouter as Router , Route , Switch, Redirect} from 'react-router-dom';
 import Header from './components/HeaderComponent';
 import Footer from './components/FooterComponent';
 import Home from './components/HomeComponent';

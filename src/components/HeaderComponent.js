@@ -43,49 +43,49 @@ function Header() {
 
   return (
     <React.Fragment>
-      <Navbar dark sticky="top" expand="lg">
-        <div className="container">
-          <NavbarBrand className="navbarBrand" href="/">
+      <Navbar dark sticky='top' expand='lg'>
+        <div className='container'>
+          <NavbarBrand className='navbarBrand' href='#'>
             <img
-              src="/assets/images/logo.png" alt=""
-              height="50px"
-              width="60px"
-              alt="Fitnezone Logo"
+              src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/logo.png'
+              alt=''
+              height='50px'
+              width='60px'
+              alt='Fitnezone Logo'
             />
-            <span className="brandName d-none d-md-block">Fitnezone</span>
+            <span className='brandName d-none d-md-block'>Fitnezone</span>
           </NavbarBrand>
 
-          <span className="nav-text order-lg-last">
-            <span className="customBtn" outline onClick={toggleAccountModal}>
-              <i className="fa fa-sign-in fa-lg" />
+          <span className='nav-text order-lg-last'>
+            <span className='customBtn' outline onClick={toggleAccountModal}>
+              <i className='fa fa-sign-in fa-lg' />
               In
             </span>
           </span>
 
-             <Link className="order-lg-last" to="/basket">
-              <span className="customBtn mr-2">
-                <span className="cartItemCount">  {basket?.length}</span>
-                <AddShoppingCartIcon className="cartIcon" />
-              </span>
-            </Link>
-       
+          <Link className='order-lg-last' to='/basket'>
+            <span className='customBtn mr-2'>
+              <span className='cartItemCount'> {basket?.length}</span>
+              <AddShoppingCartIcon className='cartIcon' />
+            </span>
+          </Link>
 
-          <NavbarToggler className="bg-dark" onClick={toggleNav} />
+          <NavbarToggler className='bg-dark' onClick={toggleNav} />
           <Collapse navbar isOpen={isNavOpen}>
-            <Nav navbar className="mx-auto">
-              <NavItem className="nav-item">
-                <NavLink className="nav-link" to="/home">
-                  <i className="fa fa-home fa-lg text-dark" /> Home
+            <Nav navbar className='mx-auto'>
+              <NavItem className='nav-item'>
+                <NavLink className='nav-link' to='/home'>
+                  <i className='fa fa-home fa-lg text-dark' /> Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/aboutus">
-                  <i className="fa fa-info fa-lg text-dark" /> About Us
+                <NavLink className='nav-link' to='/aboutus'>
+                  <i className='fa fa-info fa-lg text-dark' /> About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/contact">
-                  <i className="fa fa-address-card fa-lg text-dark" /> Contact
+                <NavLink className='nav-link' to='/contact'>
+                  <i className='fa fa-address-card fa-lg text-dark' /> Contact
                   Us
                 </NavLink>
               </NavItem>
@@ -99,24 +99,24 @@ function Header() {
         <ModalBody>
           <Form onSubmit={handleLogin}>
             <FormGroup>
-              <Label htmlFor="username">Username</Label>
-              <Input type="text" id="username" name="username" />
+              <Label htmlFor='username'>Username</Label>
+              <Input type='text' id='username' name='username' />
             </FormGroup>
             <FormGroup>
-              <Label htmlFor="password">Password</Label>
-              <Input type="password" id="password" name="password" />
+              <Label htmlFor='password'>Password</Label>
+              <Input type='password' id='password' name='password' />
             </FormGroup>
             <FormGroup check>
               <Label check>
-                <Input type="checkbox" name="remember" />
+                <Input type='checkbox' name='remember' />
                 Remember me
               </Label>
             </FormGroup>
             <Button
-              className="offset"
-              type="submit"
-              value="submit"
-              color="primary"
+              className='offset'
+              type='submit'
+              value='submit'
+              color='primary'
             >
               Login
             </Button>
@@ -124,19 +124,18 @@ function Header() {
             Not a member ?
             <br />
             <Button
-              className="offset"
-              type="submit"
-              value="submit"
-              color="primary"
+              className='offset'
+              type='submit'
+              value='submit'
+              color='primary'
             >
               Register
             </Button>
           </Form>
         </ModalBody>
       </Modal>
-
     </React.Fragment>
-  );
+  )
 }
 
 export default Header;
