@@ -11,20 +11,20 @@ import Basket from './components/BasketComponent';
 
 
 function App () {
-  return ( 
-        <Router>
-          <div className="App">
-            <Header />
-            <Switch>
-                <Route exact path='/home' component={Home}/>
-                <Route exact path='/contact' component={Contact} />
-                <Route exact path='/basket' component={Basket} />
-                <Redirect to='/home' />
-            </Switch>
-          <Footer />
-        </div>
-        </Router>
-   );
+  return (
+    <Router>
+      <div className='App'>
+        <Header />
+        <Switch>
+          <Route exact path='/home' component={Home} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/basket' component={Basket} />
+          <Redirect to='https://jijizaza999.github.io/fitnezone-store' />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  )
  }
 
 export default App;

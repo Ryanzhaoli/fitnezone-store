@@ -36,7 +36,7 @@ function Home() {
            <div className='col-md-6'>
              <img
                className='img-fluid'
-               src='/assets/images/image1.png'
+               src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/image1.png'
                alt=''
              />
            </div>
