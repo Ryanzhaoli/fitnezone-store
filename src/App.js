@@ -19,7 +19,6 @@ function App () {
           <Route exact path='/home' component={Home} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/basket' component={Basket} />
-          <Redirect to='/fitnezone-store' />
         </Switch>
         <Footer />
       </div>
