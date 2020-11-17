@@ -26,7 +26,7 @@ function Product(props) {
         
     
     return (
-        <div key={props.id} class="col-md-3 my-3 ">
+        <div key={props.id} className="col-md-3 my-3 ">
            <div className="product">
               <img className="product-image" src={props.image} alt=""/>
                  <Rating value={props.rating}/>

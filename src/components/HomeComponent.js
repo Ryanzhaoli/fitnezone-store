@@ -1,16 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../style/Home.css";
 import Rating from './Rating';
 import { useStateValue } from "../context/StateProvider";
 import Product from './Product';
 
-
 function Home() {
+  const [{products, newProducts}] = useStateValue();
 
-  const [{products,newProducts}] = useStateValue();
-
- 
 
  return (
    <div className='home'>
@@ -29,7 +25,7 @@ function Home() {
                at your command, better tools will be found as you click the
                button below.
              </p>
-             <a href='#category' className='customBtn'>
+             <a href='/#category' className='customBtn'>
                Shop →
              </a>
            </div>
@@ -49,56 +45,61 @@ function Home() {
          <h2 className='title'>Categories</h2>
          <div className='row'>
            <div className='ct col-md-3'>
-             <Link to={''}>
+             <span type='button' >
                <img
                  className='img-fluid'
                  src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/category-1.jpg'
                  alt=''
                />
-               <div class='middle'>
-                 <div class='text'>Watch</div>
+               <div className='middle'>
+                 <div className='text'>Watch</div>
                </div>
-             </Link>
+             </span>
            </div>
+
            <div className='ct col-md-3'>
-             <Link to={''}>
+             <span type='button'>
                <img
                  className='img-fluid'
                  src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/category-2.jpg'
                  alt=''
                />
-               <div class='middle'>
-                 <div class='text'>Socks</div>
+               <div className='middle'>
+                 <div className='text'>Socks</div>
                </div>
-             </Link>
+             </span>
            </div>
+
            <div className='ct col-md-3'>
-             <Link to={''}>
+             <span type='button' >
                <img
                  className='img-fluid'
                  src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/category-3.jpg'
                  alt=''
                />
-               <div class='middle'>
-                 <div class='text'>Shoes</div>
+               <div className='middle'>
+                 <div className='text'>Shoes</div>
                </div>
-             </Link>
+             </span>
            </div>
+
            <div className='ct col-md-3'>
-             <Link to={''}>
+             <span type='button'>
                <img
                  className='img-fluid'
                  src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/category-4.jpg'
                  alt=''
                />
-               <div class='middle'>
-                 <div class='text'>Clothing</div>
+               <div className='middle'>
+                 <div className='text'>Clothing</div>
                </div>
-             </Link>
+             </span>
            </div>
          </div>
        </div>
      </div>
+
+     
 
      <div className='container'>
        <h2 className='title'>Hottest Products</h2>
@@ -113,6 +114,7 @@ function Home() {
                image={product.image}
                rating={product.rating}
                countInStock={product.countInStock}
+               key={product._id}
              />
            ))}
          </div>
@@ -122,7 +124,7 @@ function Home() {
        <div className='latest-products'>
          <div className='row'>
            {newProducts.map((product) => (
-             <div key={product._id} class='col-md-3'>
+             <div key={product._id} className='col-md-3'>
                <div className='product'>
                  <img className='product-image' src={product.image} alt='' />
                  <h4>{product.name}</h4>
@@ -155,10 +157,7 @@ function Home() {
                so everything is clear as can be.
              </small>
              <div>
-               <span href className='customBtn'>
-                 {' '}
-                 Coming Soon{' '}
-               </span>
+               <span className='customBtn'> Coming Soon </span>
              </div>
            </div>
          </div>
@@ -268,7 +267,7 @@ function Home() {
      </div>
      <div className='scroll-top'>
        <button type='button' className='block'>
-         <a href='#'>
+         <a href='/#'>
            <i className='fa fa-arrow-right'></i>Scroll Top
          </a>
        </button>

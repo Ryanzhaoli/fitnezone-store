@@ -21,7 +21,7 @@ import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 import { useStateValue } from "../context/StateProvider";
 
 function Header() {
-  const [{ basket, user },dispatch] = useStateValue();
+  const [{ basket}] = useStateValue();
   
   const [isNavOpen, setNav] = useState(false);
 
@@ -48,7 +48,6 @@ function Header() {
           <NavbarBrand className='navbarBrand' href='#'>
             <img
               src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/logo.png'
-              alt=''
               height='50px'
               width='60px'
               alt='Fitnezone Logo'
@@ -57,7 +56,7 @@ function Header() {
           </NavbarBrand>
 
           <span className='nav-text order-lg-last'>
-            <span className='customBtn' outline onClick={toggleAccountModal}>
+            <span className='customBtn'  onClick={toggleAccountModal}>
               <i className='fa fa-sign-in fa-lg' />
               In
             </span>

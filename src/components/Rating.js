@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 export default function Rating(props) {
   return !props.value ? (
-    <div></div>
+    <div />
   ) : (
-    <div className="rating">
+    <div className='rating'>
       <span>
         <i
           className={
@@ -62,5 +62,5 @@ export default function Rating(props) {
       </span>
       <span>{props.text ? props.text : ''}</span>
     </div>
-  );
+  )
 }

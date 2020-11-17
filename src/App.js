@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/App.css';
-import { BrowserRouter as Router , Route , Switch} from 'react-router-dom';
+import { HashRouter as Router , Redirect, Route , Switch} from 'react-router-dom';
 import Header from './components/HeaderComponent';
 import Footer from './components/FooterComponent';
 import Home from './components/HomeComponent';
@@ -17,6 +17,7 @@ function App () {
           <Route exact path='/home' component={Home} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/basket' component={Basket} />
+          <Redirect to='/home' /> 
         </Switch>
         <Footer />
       </div>
