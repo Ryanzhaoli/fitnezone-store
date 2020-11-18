@@ -2,7 +2,7 @@ export default {
   products: [
     {
       _id: 1,
-      category: 'shoes',
+      category: 'Shoes',
       name: 'Sneaker A',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-5.jpg',
@@ -15,7 +15,7 @@ export default {
 
     {
       _id: 2,
-      category: 'pants',
+      category: 'Pants',
       name: 'Slim Pants',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-12.jpg',
@@ -27,7 +27,7 @@ export default {
     },
     {
       _id: 3,
-      category: 'socks',
+      category: 'Socks',
       name: 'Cooling Socks',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-7.jpg',
@@ -39,7 +39,7 @@ export default {
     },
     {
       _id: 4,
-      category: 'watch',
+      category: 'Watch',
       name: 'Future Time',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-8.jpg',
@@ -51,7 +51,7 @@ export default {
     },
     {
       _id: 5,
-      category: 'shoes',
+      category: 'Shoes',
       name: 'Sneaker B',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-2.jpg',
@@ -64,7 +64,7 @@ export default {
 
     {
       _id: 6,
-      category: 'watch',
+      category: 'Watch',
       name: 'Casual Watch',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-9.jpg',
@@ -76,7 +76,7 @@ export default {
     },
     {
       _id: 7,
-      category: 'shoes',
+      category: 'Shoes',
       name: 'Jogging X',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-10.jpg',
@@ -88,7 +88,7 @@ export default {
     },
     {
       _id: 8,
-      category: 'watch',
+      category: 'Shoes',
       name: 'Air Style',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-11.jpg',
