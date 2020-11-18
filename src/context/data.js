@@ -3,7 +3,7 @@ export default {
     {
       _id: 1,
       category: 'shoes',
-      name: 'Sneakers',
+      name: 'Sneaker A',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-5.jpg',
       price: 30,
@@ -40,7 +40,7 @@ export default {
     {
       _id: 4,
       category: 'watch',
-      name: 'Watches',
+      name: 'Future Time',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-8.jpg',
       price: 60,
@@ -52,7 +52,7 @@ export default {
     {
       _id: 5,
       category: 'shoes',
-      name: 'Sneakers',
+      name: 'Sneaker B',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-2.jpg',
       price: 30,
@@ -64,8 +64,8 @@ export default {
 
     {
       _id: 6,
-      category: 'pants',
-      name: 'Casual Pants',
+      category: 'watch',
+      name: 'Casual Watch',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-9.jpg',
       price: 60,
@@ -76,8 +76,8 @@ export default {
     },
     {
       _id: 7,
-      category: 'socks',
-      name: 'Cooling Socks',
+      category: 'shoes',
+      name: 'Jogging X',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-10.jpg',
       price: 60,
@@ -89,7 +89,7 @@ export default {
     {
       _id: 8,
       category: 'watch',
-      name: 'Watches',
+      name: 'Air Style',
       image:
         'https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/product-11.jpg',
       price: 60,

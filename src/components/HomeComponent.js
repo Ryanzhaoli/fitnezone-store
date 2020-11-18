@@ -2,11 +2,10 @@ import React from "react";
 import "../style/Home.css";
 import Rating from './Rating';
 import { useStateValue } from "../context/StateProvider";
-import Product from './Product';
+import Product from './Product'
 
 function Home() {
   const [{products, newProducts}] = useStateValue();
-
 
  return (
    <div className='home'>
@@ -44,8 +43,8 @@ function Home() {
        <div className='container'>
          <h2 className='title'>Categories</h2>
          <div className='row'>
-           <div className='ct col-md-3'>
-             <span type='button' >
+           <div className='ct col-3'>
+             <span type='button'>
                <img
                  className='img-fluid'
                  src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/category-1.jpg'
@@ -57,7 +56,7 @@ function Home() {
              </span>
            </div>
 
-           <div className='ct col-md-3'>
+           <div className='ct col-3'>
              <span type='button'>
                <img
                  className='img-fluid'
@@ -70,8 +69,8 @@ function Home() {
              </span>
            </div>
 
-           <div className='ct col-md-3'>
-             <span type='button' >
+           <div className='ct col-3'>
+             <span type='button'>
                <img
                  className='img-fluid'
                  src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/category-3.jpg'
@@ -83,7 +82,7 @@ function Home() {
              </span>
            </div>
 
-           <div className='ct col-md-3'>
+           <div className='ct col-3'>
              <span type='button'>
                <img
                  className='img-fluid'
@@ -95,18 +94,18 @@ function Home() {
                </div>
              </span>
            </div>
+        
          </div>
        </div>
      </div>
 
-     
-
      <div className='container'>
-       <h2 className='title'>Hottest Products</h2>
-
+       <h2 className='title'>Latest Products</h2>
+       
        <div className='products'>
          <div className='row'>
            {products.map((product) => (
+            
              <Product
                name={product.name}
                price={product.price}
@@ -116,11 +115,12 @@ function Home() {
                countInStock={product.countInStock}
                key={product._id}
              />
+            
            ))}
          </div>
        </div>
 
-       <h2 className='title'>Future Products</h2>
+       <h2 className='title'>Coming Products</h2>
        <div className='latest-products'>
          <div className='row'>
            {newProducts.map((product) => (

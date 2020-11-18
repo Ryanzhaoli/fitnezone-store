@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "../style/Header.css";
+import React, { useState } from 'react'
+import '../style/Header.css'
 import {
   Nav,
   Navbar,
@@ -15,31 +15,27 @@ import {
   FormGroup,
   Input,
   Label,
-} from "reactstrap";
-import { NavLink, Link } from "react-router-dom";
-import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
-import { useStateValue } from "../context/StateProvider";
+} from 'reactstrap'
+import { NavLink, Link } from 'react-router-dom'
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart'
+import { useStateValue } from '../context/StateProvider'
 
 function Header() {
-  const [{ basket}] = useStateValue();
-  
-  const [isNavOpen, setNav] = useState(false);
+  const [{ basket }] = useStateValue()
 
-  const [isModalOpen, setModal] = useState(false);
-  
-  
-  const toggleNav = () => setNav(!isNavOpen);
+  const [isNavOpen, setNav] = useState(false)
 
-  const toggleAccountModal = () => setModal(!isModalOpen);
+  const [isModalOpen, setModal] = useState(false)
 
+  const toggleNav = () => setNav(!isNavOpen)
 
+  const toggleAccountModal = () => setModal(!isModalOpen)
 
-  const handleLogin = e => {
-    alert('Welcome Back !');
-    toggleAccountModal();
-    e.preventDefault();
+  const handleLogin = (e) => {
+    alert('Welcome Back !')
+    toggleAccountModal()
+    e.preventDefault()
   }
-
 
   return (
     <React.Fragment>
@@ -56,7 +52,7 @@ function Header() {
           </NavbarBrand>
 
           <span className='nav-text order-lg-last'>
-            <span className='customBtn'  onClick={toggleAccountModal}>
+            <span className='customBtn' onClick={toggleAccountModal}>
               <i className='fa fa-sign-in fa-lg' />
               In
             </span>
@@ -120,16 +116,8 @@ function Header() {
               Login
             </Button>
             <br />
-            Not a member ?
-            <br />
-            <Button
-              className='offset'
-              type='submit'
-              value='submit'
-              color='primary'
-            >
-              Register
-            </Button>
+            Not a member ? {' '}
+            <Link to=''>Register</Link>
           </Form>
         </ModalBody>
       </Modal>
@@ -137,4 +125,4 @@ function Header() {
   )
 }
 
-export default Header;
+export default Header

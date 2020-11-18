@@ -4,7 +4,7 @@ export default function Rating(props) {
   return !props.value ? (
     <div />
   ) : (
-    <div className='rating'>
+    <div className='rating text-warning'>
       <span>
         <i
           className={

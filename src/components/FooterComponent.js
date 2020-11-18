@@ -4,25 +4,34 @@ import '../style/Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="row mt-5">
-          <div className="col-md-3 text-center">
+    <footer className='footer'>
+      <div className='container'>
+        <div className='row mt-5'>
+          <div className='col-md-3 text-center'>
             <h3>Download Our App</h3>
             <p>Download App for ios or Android mobile phone.</p>
-            <div className="app-logo">
-              <img src="assets/images/play-store.png" alt="" />
-              <img src="assets/images/app-store.png" alt="" />
+            <div className='app-logo'>
+              <img
+                src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/play-store.png'
+                alt=''
+              />
+              <img
+                src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/app-store.png'
+                alt=''
+              />
             </div>
           </div>
-          <div className="col-md-3 text-center">
-            <img src="assets/images/logo.png" alt=""/>
+          <div className='col-md-3 text-center'>
+            <img
+              src='https://raw.githubusercontent.com/jijizaza999/fitnezone-store/master/public/assets/images/logo.png'
+              alt=''
+            />
             <p>
               Our Purpose Is To Sustainably Make the Pleaseure and Benefits of
-              Sports Accessible to the Many.{" "}
+              Sports Accessible to the Many.{' '}
             </p>
           </div>
-          <div className="col-md-3 text-center">
+          <div className='col-md-3 text-center'>
             <h3>Useful Links</h3>
             <ul>
               <li>Coupons</li>
@@ -31,7 +40,7 @@ function Footer() {
               <li>Join Affiliate</li>
             </ul>
           </div>
-          <div className="col-md-3 text-center">
+          <div className='col-md-3 text-center'>
             <h3>Follow Us</h3>
             <ul>
               <li>Facebook</li>
@@ -43,9 +52,9 @@ function Footer() {
         </div>
       </div>
       <hr />
-      <p className="copyright">Copyright-2020 </p>
+      <p className='copyright'>Copyright-2020 </p>
     </footer>
-  );
+  )
 }
 
 export default Footer;
