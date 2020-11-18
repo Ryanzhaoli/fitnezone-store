@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/fitnezone-store/static/css/main.b6a17a53.chunk.css",
-    "main.js": "/fitnezone-store/static/js/main.fbcc0664.chunk.js",
-    "main.js.map": "/fitnezone-store/static/js/main.fbcc0664.chunk.js.map",
+    "main.js": "/fitnezone-store/static/js/main.875d159b.chunk.js",
+    "main.js.map": "/fitnezone-store/static/js/main.875d159b.chunk.js.map",
     "runtime-main.js": "/fitnezone-store/static/js/runtime-main.1838c401.js",
     "runtime-main.js.map": "/fitnezone-store/static/js/runtime-main.1838c401.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/fitnezone-store/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.61628d74.chunk.js": "/fitnezone-store/static/js/2.61628d74.chunk.js",
-    "static/js/2.61628d74.chunk.js.map": "/fitnezone-store/static/js/2.61628d74.chunk.js.map",
+    "static/js/2.ab9ff54a.chunk.js": "/fitnezone-store/static/js/2.ab9ff54a.chunk.js",
+    "static/js/2.ab9ff54a.chunk.js.map": "/fitnezone-store/static/js/2.ab9ff54a.chunk.js.map",
     "index.html": "/fitnezone-store/index.html",
-    "precache-manifest.3f1dff866850db21282e0f603cc2126d.js": "/fitnezone-store/precache-manifest.3f1dff866850db21282e0f603cc2126d.js",
+    "precache-manifest.24d48a8c13299641e01012a71bdd7edd.js": "/fitnezone-store/precache-manifest.24d48a8c13299641e01012a71bdd7edd.js",
     "service-worker.js": "/fitnezone-store/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/fitnezone-store/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.b6a17a53.chunk.css.map": "/fitnezone-store/static/css/main.b6a17a53.chunk.css.map",
-    "static/js/2.61628d74.chunk.js.LICENSE.txt": "/fitnezone-store/static/js/2.61628d74.chunk.js.LICENSE.txt"
+    "static/js/2.ab9ff54a.chunk.js.LICENSE.txt": "/fitnezone-store/static/js/2.ab9ff54a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1838c401.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.61628d74.chunk.js",
+    "static/js/2.ab9ff54a.chunk.js",
     "static/css/main.b6a17a53.chunk.css",
-    "static/js/main.fbcc0664.chunk.js"
+    "static/js/main.875d159b.chunk.js"
   ]
 }
