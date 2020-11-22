@@ -11,7 +11,6 @@ function Home() {
 
   const toggleWatch = () => {
     setCategory('Watch')
-
   }
   const toggleShoes = () => {
     setCategory('Shoes')
@@ -22,7 +21,10 @@ function Home() {
   const togglePants = () => {
     setCategory('Pants')
   }
-
+  const HideHandler = () => {
+    setCategory('')
+  }
+ 
   return (
     <div className='home'>
       <div className='banner'>
@@ -114,26 +116,33 @@ function Home() {
         </div>
       </div>
 
-      <div className='container'>
-        {category? <h2 className='title'>{category}</h2>:null}
-        <div className='products'>
-          <div className='row'>
-            {products.map((product) =>
-              product.category === category ? (
-                <Product
-                  name={product.name}
-                  price={product.price}
-                  id={product._id}
-                  image={product.image}
-                  rating={product.rating}
-                  countInStock={product.countInStock}
-                  key={product._id}
-                />
-              ) : null
-            )}
+      {category ? (
+        <div className='container'>
+          <h2 className='title'>{category}</h2>
+          <div className='products'>
+            <div className='row'>
+              {products.map((product) =>
+                product.category === category ? (
+                  <Product
+                    name={product.name}
+                    price={product.price}
+                    id={product._id}
+                    image={product.image}
+                    rating={product.rating}
+                    countInStock={product.countInStock}
+                    key={product._id}
+                  />
+                ) : null
+              )}
+            </div>
+            <div className='row'>
+            <div className='col text-center'>
+            <span type='button' onClick={HideHandler}>Hide<i className='fa fa-arrow-up'></i></span>
+            </div>
+            </div>
           </div>
         </div>
-      </div>
+      ) : null}
 
       <div className='container'>
         <h2 className='title'>All Products</h2>
