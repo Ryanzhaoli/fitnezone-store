@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fitnezone-store/static/css/main.b6a17a53.chunk.css",
-    "main.js": "/fitnezone-store/static/js/main.875d159b.chunk.js",
-    "main.js.map": "/fitnezone-store/static/js/main.875d159b.chunk.js.map",
+    "main.js": "/fitnezone-store/static/js/main.9ac5104c.chunk.js",
+    "main.js.map": "/fitnezone-store/static/js/main.9ac5104c.chunk.js.map",
     "runtime-main.js": "/fitnezone-store/static/js/runtime-main.1838c401.js",
     "runtime-main.js.map": "/fitnezone-store/static/js/runtime-main.1838c401.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/fitnezone-store/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.ab9ff54a.chunk.js": "/fitnezone-store/static/js/2.ab9ff54a.chunk.js",
     "static/js/2.ab9ff54a.chunk.js.map": "/fitnezone-store/static/js/2.ab9ff54a.chunk.js.map",
     "index.html": "/fitnezone-store/index.html",
-    "precache-manifest.24d48a8c13299641e01012a71bdd7edd.js": "/fitnezone-store/precache-manifest.24d48a8c13299641e01012a71bdd7edd.js",
+    "precache-manifest.5746f1ef4fbc3125b339f576ea6c1fa8.js": "/fitnezone-store/precache-manifest.5746f1ef4fbc3125b339f576ea6c1fa8.js",
     "service-worker.js": "/fitnezone-store/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/fitnezone-store/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.b6a17a53.chunk.css.map": "/fitnezone-store/static/css/main.b6a17a53.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.ab9ff54a.chunk.js",
     "static/css/main.b6a17a53.chunk.css",
-    "static/js/main.875d159b.chunk.js"
+    "static/js/main.9ac5104c.chunk.js"
   ]
 }
